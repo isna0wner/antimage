@@ -1,0 +1,11 @@
+How to run?
+                                  
+pkg update && pkg upgrade
+pkg install curl -y
+curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
+chmod 777 metasploit.sh 
+./metasploit.sh
+
+instant run
+
+pkg update && pkg upgrade && pkg install curl -y && curl -LO raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh && chmod 777 metasploit.sh && ./metasploit.sh && msfconsole
